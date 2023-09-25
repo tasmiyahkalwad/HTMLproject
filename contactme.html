@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CONTACT ME</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(171, 205, 209);
+    }
+    header {
+        background-color:#d49999;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .contact-form {
+        background-color: rgb(226, 233, 233);
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        padding: 20px;
+        padding-right: 3%;
+        max-width: 600px;
+    }
+
+    .contact-form h2 {
+        color: #007BFF;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .form-group textarea {
+        resize: vertical;
+    }
+
+    .form-group button {
+        background-color: #007BFF;
+        color: rgb(230, 239, 230);
+        border: none;
+        margin-right: 30%;
+        border-radius: 5px;
+        padding: 30px 30px;
+        font-size: 50px;
+        cursor: pointer;
+    }
+
+    footer {
+        background-color: #7f91a4;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+</style>
+<body>
+    <header>
+        <h1>CONTACT ME</h1>
+    </header>
+
+    <div class="contact-form">
+        <h2>Send me a message</h2>
+        <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="number">Your Mobile No:</label>
+                <input type="text" id="number" name="number" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button type="submit" style="color: rgb(224, 224, 234); font-size: large; margin-left: 47%;width: 80px; height: 40px;background-color: rgb(99, 99, 218);">Send</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Contact: tasmiyahkalwad@gmail.com | Phone: 9482897020</p>
+    </footer>
+</body>
+</html>
